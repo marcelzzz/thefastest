@@ -5,7 +5,7 @@ require_once("vendor/autoload.php");
 function secondsToHumanTime($value)
 {
     if ($value > 86400) {
-        return gmdate("d " . $this->hm->vars->texts['days'] . " H:i:s", $value);
+        return gmdate("d days H:i:s", $value);
     } elseif ($value > 3600) {
         return gmdate("H:i:s", $value);
     } else {
