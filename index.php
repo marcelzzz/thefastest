@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container p-5">
 
 
         <?php if ($showResult) : ?>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group">
-                                <label for="distance">Distance</label>
+                                <label for="distance">Target Distance</label>
                                 <input type="text" class="form-control" id="distance" name="distance" aria-describedby="distanceHelp" value="1000">
                                 <small id="distanceHelp" class="form-text text-muted">Enter distance in meters</small>
                             </div>
